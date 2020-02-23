@@ -15,3 +15,5 @@ function pigIt(str){
 
 Test('Pig latin is cool','igPay atinlay siay oolcay', pigIt);
 Test('This is my string','hisTay siay ymay tringsay', pigIt);
+
+console.log("".length);
