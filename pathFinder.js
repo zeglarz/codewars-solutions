@@ -12,6 +12,7 @@ function pathFinder(maze) {
     let chart = [];
     for (let c of maze.split("\n")) {
         chart.push([...c]);
+        console.log(chart);
     }
 
     let size = chart.length;
